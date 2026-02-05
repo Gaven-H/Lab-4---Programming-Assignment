@@ -92,4 +92,7 @@ while game_state == True:
         else:
             print("Number too high!")
         
-        print()
+        print(hangman_states[wrong_guess_counter])
+        wrong_guess_counter += 1
+
+        
