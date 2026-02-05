@@ -73,9 +73,9 @@ wrong_guess_counter = 0
 
 game_state = True
 
-print ("Guess the number including and between 1-15!")
-print ("Each wrong guess takes you one step closer to avoid an untimely end...")
-print ("Worry not, you will be given mysterious assistance from beyond!")
+print("Guess the number including and between 1-15!")
+print("Each wrong guess takes you one step closer to avoid an untimely end...")
+print("Worry not, you will be given mysterious assistance from beyond!")
 
 while game_state == True:
     user_guess = input("Please enter your guess: ")
@@ -87,7 +87,9 @@ while game_state == True:
     
     else:
         if user_guess < num_to_guess:
-            print ("Number too low!")
+            print("Number too low!")
         
         else:
             print("Number too high!")
+        
+        print()
