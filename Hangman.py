@@ -95,4 +95,7 @@ while game_state == True:
         print(hangman_states[wrong_guess_counter])
         wrong_guess_counter += 1
 
-        
+        if wrong_guess_counter == len(hangman_states):
+            print("You have met an untimely end...")
+            print(f"The saving number was {num_to_guess}.")
+            game_state == False
